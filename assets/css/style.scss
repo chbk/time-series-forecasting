@@ -1,0 +1,44 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.markdown-body {
+  max-width: 834px;
+  line-height: 1.7;
+}
+
+.markdown-body > h1:first-of-type {
+  display: none;
+}
+
+.markdown-body > h1:first-of-type + p {
+  display: none;
+}
+
+.markdown-body > .footer {
+  display: none;
+}
+
+.markdown-body p {
+  margin-top: 30px;
+}
+
+.markdown-body h2 + p, .markdown-body h3 + p {
+  margin-top: 15px;
+}
+
+.markdown-body h3 {
+  margin-top: 40px;
+}
+
+.markdown-body div[align="center"] {
+  display: flex;
+  margin-top: 30px;
+  justify-content: center;
+}
+
+.markdown-body table {
+  width: auto;
+  margin: 0 auto;
+}
